@@ -1,0 +1,181 @@
+{
+  "mod_elements": [
+    {
+      "name": "CooperAxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mine/items/cooper_axe.json",
+          "src/main/resources/assets/more_mine/models/item/cooper_axe.json",
+          "src/main/java/net/xingyang/moremine/item/CooperAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperSword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mine/items/copper_sword.json",
+          "src/main/resources/assets/more_mine/models/item/copper_sword.json",
+          "src/main/java/net/xingyang/moremine/item/CopperSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CooperAxes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_axes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mine/recipe/cooper_axes.json"
+        ]
+      }
+    },
+    {
+      "name": "Coopersword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coopersword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mine/recipe/coopersword.json"
+        ]
+      }
+    },
+    {
+      "name": "CooperPickaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mine/items/cooper_pickaxe.json",
+          "src/main/java/net/xingyang/moremine/item/CooperPickaxeItem.java",
+          "src/main/resources/assets/more_mine/models/item/cooper_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CooperHoe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mine/items/cooper_hoe.json",
+          "src/main/resources/assets/more_mine/models/item/cooper_hoe.json",
+          "src/main/java/net/xingyang/moremine/item/CooperHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CooperShovel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_mine/models/item/cooper_shovel.json",
+          "src/main/java/net/xingyang/moremine/item/CooperShovelItem.java",
+          "src/main/resources/assets/more_mine/items/cooper_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CooperPickaxes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_pickaxes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mine/recipe/cooper_pickaxes.json"
+        ]
+      }
+    },
+    {
+      "name": "CooperHoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_hoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mine/recipe/cooper_hoes.json"
+        ]
+      }
+    },
+    {
+      "name": "CooperShovels",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooper_shovels",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_mine/recipe/cooper_shovels.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:CooperShovel",
+      "~CUSTOM:CooperPickaxe",
+      "~CUSTOM:CopperSword",
+      "~CUSTOM:CooperAxe"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.more_mine.cooper_shovel": "Cooper Shovel",
+      "item.more_mine.cooper_axe": "Cooper Axe",
+      "item.more_mine.cooper_hoe": "Cooper Hoe",
+      "item.more_mine.copper_sword": "Copper Sword",
+      "item.more_mine.cooper_pickaxe": "Cooper Pickaxe"
+    },
+    "zh_cn": {
+      "item.more_mine.cooper_shovel": "Cooper Shovel",
+      "item.more_mine.cooper_axe": "铜稿",
+      "item.more_mine.cooper_hoe": "Cooper Hoe",
+      "item.more_mine.copper_sword": "铜剑",
+      "item.more_mine.cooper_pickaxe": "Cooper Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "more_mine",
+    "modName": "More Mine",
+    "version": "1.0.0",
+    "author": "PzyJa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.xingyang.moremine"
+  },
+  "mcreatorVersion": 202500110519
+}
